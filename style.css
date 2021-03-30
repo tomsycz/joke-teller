@@ -38,13 +38,12 @@ button {
 button:hover {
   transform: translate(-2px, -2px);
   box-shadow: 5px 5px 0 0;
-  filter: brightness(110%)
+  filter: brightness(110%);
 }
 button:active {
   transform: translate(1px, 1px);
   box-shadow: 0px 0px 0 0 rgba(0, 0, 0, 0.392);
-  filter: brightness(95%)
-
+  filter: brightness(95%);
 }
 /* media Query: Tablet of Smaller */
 @media screen and (max-width: 1000px) {
@@ -59,11 +58,12 @@ button:active {
   button:hover {
     transform: translate(-2px, -2px);
     box-shadow: 2px 2px 24px 12px rgba(0, 0, 0, 0.5);
-
   }
   button:active {
     transform: translate(1px, 1px);
-    box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.5);
-
+    box-shadow: 1px 1px 8px 8px rgba(0, 0, 0, 0.5);
   }
+}
+.inactive {
+  opacity: 0.5;
 }
